@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(plum, thistle, lightblue);
+    min-height: 100vh;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(41, 164, 41);
+    margin: 0;
+}
+
+.btn {
+    width: 600px;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+.twitter {
+    border: 3px solid aqua;
+    color: aqua;
+    box-shadow: 7px 7px 15px aqua;
+}
+
+.btn.twitter:hover{
+    color: rgb(40, 199, 199);
+}
+
+.instagram {
+    border: 3px solid red;
+    color: red;
+    box-shadow: 7px 7px 15px red;
+}
+
+.btn.instagram:hover{
+    color: rgb(139, 32, 32);
+}
+
+
+.linkedin {
+    border: 3px solid rgb(38, 150, 187);
+    color: rgb(38, 135, 168);
+    box-shadow: 7px 7px 15px rgb(38, 99, 120);
+}
+
+.btn.linkedin:hover{
+    color: rgb(39, 82, 97);
+}
+
+.coffee {
+    border: 3px solid lightsalmon;
+    color: lightsalmon;
+    box-shadow: 7px 7px 15px lightsalmon;
+}
+
+.btn.coffee:hover{
+    color: rgb(163, 81, 48);
+}
